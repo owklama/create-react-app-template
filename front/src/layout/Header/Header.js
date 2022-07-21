@@ -1,11 +1,12 @@
 import React from "react";
 
+import { ReactComponent as MainLogo } from "assets/main-logo.svg";
 import "./Header.css";
 
 const Header = () => {
   return (
     <div className="header">
-      <h1>Header</h1>
+      <MainLogo className="main-logo" />
     </div>
   );
 };
