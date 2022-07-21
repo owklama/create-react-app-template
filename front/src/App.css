@@ -1,2 +1,21 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif !important;
+  scrollbar-color: #b5b5ba #f1f1f1;
+  scrollbar-width: thin;
+  letter-spacing: 0.5px !important;
+}
+::-webkit-scrollbar {
+  scrollbar-color: #b5b5ba #f1f1f1;
+  scrollbar-width: thin;
+  color: #b5b5ba #f1f1f1;
+  width: 5px;
+  border-radius: 5px;
+}
+body {
+  background-color: var(--normal-green);
+  width: 100vw;
+  overflow: hidden;
 }

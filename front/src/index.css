@@ -1,2 +1,10 @@
+/* Color Palette */
 :root {
+  --blue-dark: #05386b;
+
+  --dark-green: #379683;
+  --normal-green: #5cdb95;
+  --light-green: #5cdb95;
+
+  --white: #edf5e1;
 }
