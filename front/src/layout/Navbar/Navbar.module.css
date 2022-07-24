@@ -1,0 +1,41 @@
+.navbar {
+  height: 100px !important;
+  background-color: var(--blue-dark);
+  display: flex;
+  align-items: center;
+}
+
+li {
+  color: var(--white);
+  font-weight: 500;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.main_logo {
+  height: 50px;
+  width: 50px;
+  margin-inline-start: 1rem;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-inline-start: 50px;
+}
+
+.navlink {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.navlink_active li {
+  font-size: 1rem;
+  margin: 1rem;
+  color: var(--normal-green) !important;
+}

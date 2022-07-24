@@ -2,7 +2,7 @@
 import React from "react";
 
 // Components
-import Header from "layout/Header/Header";
+import Navbar from "layout/Navbar/Navbar";
 import RouterConfig from "layout/RouterConfig";
 
 import "./App.css";
@@ -10,7 +10,7 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <Header />
+      <Navbar />
 
       <RouterConfig />
     </>
