@@ -1,1 +1,1 @@
-# HitchMyRide
+# create-react-app-template
